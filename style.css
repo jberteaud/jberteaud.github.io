@@ -1,0 +1,131 @@
+body
+{
+    width:99%;
+    height:100%;
+    background-color: rgb(255,255,255);
+    font-family: 'Trebuchet MS', sans-serif;'Trebuchet MS', Arial, sans-serif;
+    color: black;
+}
+
+#bloc_page
+{
+    background-color: rgb(255,255,255);
+    border-radius: 50px;
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+/*Paragraphes*/
+p
+{
+    text-align: justify;
+    font-size: 16px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/*Titres*/
+h3
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 600px;
+    margin-left: 50px;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    font-variant: small-caps;
+    background-color: rgb(241,170,100);
+}
+
+h5
+{
+    font-family: 'Optima', 'Arial', sans-serif;
+    text-align: left;
+    margin-bottom: 7px;
+    
+}
+h5.name
+{
+    margin-left: 50px;
+    font-variant: small-caps;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(241,170,100);
+}
+h5.suite
+{
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+h6
+{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+/*Images*/
+#image
+{
+    font-size: 12px;
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+    margin-right:80px;
+    width: 225px;
+    height: 225px;
+    margin-bottom: 25px;
+}
+
+/*Footer*/
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+/*Liens*/
+a {
+  color: rgb(75,175,200);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+
